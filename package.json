@@ -1,6 +1,6 @@
 {
   "name": "tamas-soos",
-  "version": "1.6.0",
+  "version": "1.0.0",
   "description": "A personal card for Tamas Soos (@tamas-soos)",
   "main": "/bin/card.js",
   "bin": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/tamas-soos/bitandbang.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
